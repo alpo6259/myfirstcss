@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 2px;
+}
+p {
+  border: crimson 2px solid;
+  padding: 20px;
+  margin: 2px;
+}
+h1,
+h2,
+h3 {
+  border: darkblue 2px solid;
+  padding: 20px;
+  margin: 2px;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header {
+  padding: 20px;
+  margin: 2px;
+  border: 1px solid blue;
+}
+.section-a {
+  border: 3px green solid;
+  padding: 20px;
+  margin: 2px;
+}
+.section-b {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  border: 3px green solid;
+  padding: 20px;
+  margin: 2px;
+}
+/* .box {
+  border: 3px red solid;
+  padding: 20px;
+  margin: 2px;
+} */
+img {
+  /* display: block;
+  width: fit-content;
+  height: min-content; */
+  border: 3px red solid;
+  padding: 20px;
+  margin: 2px;
+}
+.card {
+  border: 3px green solid;
+  padding: 20px;
+  margin: 2px;
+}
+.section-c {
+  border: darkblue 2px solid;
+  padding: 20px;
+  margin: 2px;
+}
+
+.section-d {
+  flex-direction: row;
+  justify-content: space-around;
+  border: darkblue 2px solid;
+  padding: 20px;
+  margin: 2px;
+}
+.box {
+  border: darkblue 2px solid;
+  padding: 20px;
+  margin: 2px;
+  height: 200px;
+  width: 50%;
+}
+.main-footer {
+  flex-direction: row;
+  justify-content: space-around;
+  border: darkblue 2px solid;
+  padding: 20px;
+  margin: 2px;
+}
