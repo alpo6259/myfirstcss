@@ -1,90 +1,91 @@
 * {
   box-sizing: border-box;
 }
-
+html {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
-  border: 1px solid red;
-  padding: 10px;
-  margin: 2px;
+  text-align: center;
+  color: black;
 }
 p {
-  border: crimson 2px solid;
+  font-size: 1.1em;
   padding: 20px;
   margin: 2px;
+  text-align: center;
 }
 h1,
 h2,
 h3 {
-  border: darkblue 2px solid;
+  font-size: 1.4em;
   padding: 20px;
   margin: 2px;
+}
+a {
+  padding: 30px;
+  background-color: #cfdce7;
+  border-radius: 17px;
+  color: initial;
 }
 .text-center {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 2px green;
 }
-
+.content-text {
+}
 .main-header {
+  background-image: url(./../images/down-wh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: auto;
   padding: 20px;
-  margin: 2px;
-  border: 1px solid blue;
 }
 .section-a {
-  border: 3px green solid;
   padding: 20px;
-  margin: 2px;
+  background-color: #cfdce7;
 }
 .section-b {
+  background-color: #cfdce7;
   flex-direction: row;
-  justify-content: center;
   align-items: stretch;
-  border: 3px green solid;
   padding: 20px;
-  margin: 2px;
 }
-/* .box {
-  border: 3px red solid;
-  padding: 20px;
-  margin: 2px;
-} */
 img {
-  /* display: block;
-  width: fit-content;
-  height: min-content; */
-  border: 3px red solid;
   padding: 20px;
   margin: 2px;
 }
 .card {
-  border: 3px green solid;
   padding: 20px;
   margin: 2px;
+  background-color: #779bbb;
 }
 .section-c {
-  border: darkblue 2px solid;
+  background-color: #cfdce7;
   padding: 20px;
-  margin: 2px;
 }
-
 .section-d {
+  background-color: #cfdce7;
   flex-direction: row;
   justify-content: space-around;
-  border: darkblue 2px solid;
-  padding: 20px;
-  margin: 2px;
 }
 .box {
-  border: darkblue 2px solid;
-  padding: 20px;
-  margin: 2px;
-  height: 200px;
+  align-items: center;
+  height: 300px;
   width: 50%;
+  background-color: #88a8c3;
+}
+.box1 {
+  background-color: #799dbc;
 }
 .main-footer {
+  background-color: #2d6696;
   flex-direction: row;
   justify-content: space-around;
-  border: darkblue 2px solid;
   padding: 20px;
-  margin: 2px;
 }
